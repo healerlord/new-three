@@ -1,0 +1,79 @@
+﻿<html>
+<head>
+<title>新生报名</title>
+<style type="text/css">
+body{
+	font-family: Microsoft Yahei;
+	font-weight: bold;
+	text-align:center;}
+div {
+	style=pading:50px;
+    border:10px  ;
+    margin:20px;}
+
+.box1 {width:300px;height:auto;float:left;display:inline;}
+.box2 {width:300px;height:auto;float:left;display:inline;}
+.box3 {width:300px;height:auto;float:left;display:inline;}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<h1>报名系统</h1>
+
+<div class="box1" style="background:#0CC" >
+  <label>性别:</label>
+    <br>
+    <label>男</label>
+    <input type="radio" value="1" name="lord">
+    <br>
+    <label>女</label>
+    <input type="radio" value="2" name="lord">
+  <br><br>
+</div>
+<br><br><br>
+<div class="box2" style="background:#0CC">
+  姓名：
+  <input type="tel" name="myName">
+  <br><br>
+  密码：
+  <input type="tel" name="pass">
+  <br><br>
+  邮箱
+  <input type="tel" name="email">
+  <br><br>
+  专业名称
+  <input type="tel" name="name">
+  <br><br>
+  电话
+  <input type="tel" name="number">
+  <br><br>
+  </div>
+  <form action="save.php" method="post" >
+  <div class="box3" style="background:#0CC" action="save.php" method="post" style="padding-top:200px">
+   <label>意向部门:</label>
+    <select>
+      <option value="综合办公室">综合办公室</option>
+    <option value="技术开发部">技术开发部</option>
+      <option value="技术开发部">UED</option>
+      <option value="公关策划部">公关策划部</option>
+      <option value="网络安全部">蓝之青</option>
+      <option value="视觉设计部">卡乐坊</option>
+      <option value="综合媒体集团">技术开发部</option>
+      <option value="新闻集团">技术开发部</option>
+      <option value="视频集团">微效坊 微影视 电视台</option> 
+    </select>
+     <br><br><br><br>
+</div></form>
+<div class="box4"style="padding-top:500px">
+ <input type="submit" value="提交"style="background:#0CC" name="submitBtn" />
+</div>
+</body>
+</html>
+# Auto detect text files and perform LF normalization
+* text=auto
+# Auto detect text files and perform LF normalization
+* text=auto
+# Auto detect text files and perform LF normalization
+* text=auto
